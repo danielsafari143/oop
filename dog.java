@@ -1,10 +1,10 @@
 package oop;
 
-class Dog {
+class Dog extends Animal{
     String breed;
     private int age;
-    String color;
-    String name;
+    protected String color;
+    protected String name;
 
     private static String COLOR = "#34af34";
 
@@ -21,7 +21,6 @@ class Dog {
         this.age = value;
     }
 
-    void barking(){} // Methods/Behavior
     void hungry(){} // Methods/Behavior
     void sleeping(){} // Methods/Behavior
 }

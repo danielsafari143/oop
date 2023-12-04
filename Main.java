@@ -5,9 +5,9 @@ public class Main {
     static int b = 11;
     static double c = 7.3;
     static double d = 9.4;
+    static String name = "Safari";
 
     static double result1 = minFunction(c , d);
-
 
     public static int minFunction(int a , int b){
         int min;
@@ -20,7 +20,6 @@ public class Main {
 
         return min;
     }
-
     public static double minFunction(double a , double b){
         double min;
         
@@ -34,6 +33,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-         System.out.println(result1);
+        Dog rachel = new Dog("Rchel");
+        System.out.println(rachel.crie("Barking"));
     };
 }
