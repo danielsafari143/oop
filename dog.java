@@ -2,7 +2,7 @@ package oop;
 
 class Dog {
     String breed;
-    int age;
+    private int age;
     String color;
     String name;
 
@@ -11,6 +11,14 @@ class Dog {
     public Dog(String name){
         this.name = name;
         System.err.println(name + " " + Dog.COLOR);
+    }
+
+    int getAge () {
+        return age;
+    }
+
+    void setAge (int value){
+        this.age = value;
     }
 
     void barking(){} // Methods/Behavior
