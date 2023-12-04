@@ -3,10 +3,10 @@ package oop;
 public class Main {
     static int a = 1;
     static int b = 11;
-    double c = 7.3;
-    double d = 9.4;
+    static double c = 7.3;
+    static double d = 9.4;
 
-    static int result1 = minFunction(a , b);
+    static double result1 = minFunction(c , d);
 
 
     public static int minFunction(int a , int b){
