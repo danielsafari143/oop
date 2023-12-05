@@ -14,13 +14,13 @@ class Dog extends Animal{
         System.err.println(name + " " + Dog.COLOR);
     }
 
-   @Override
-   protected String cries(String spec) {
-       // TODO Auto-generated method stub
-       super.name = "Humain";
-       System.out.print(super.name);
-       return super.cries(spec);
-   }
+//    @Override
+//    protected String cries(String spec) {
+//        // TODO Auto-generated method stub
+//        super.name = "Humain";
+//        System.out.print(super.name);
+//        return super.cries(spec);
+//    }
 
     int getAge () {
         return age;
