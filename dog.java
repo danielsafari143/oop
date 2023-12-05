@@ -17,6 +17,8 @@ class Dog extends Animal{
    @Override
    protected String cries(String spec) {
        // TODO Auto-generated method stub
+       super.name = "Humain";
+       System.out.print(super.name);
        return super.cries(spec);
    }
 
