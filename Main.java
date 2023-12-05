@@ -34,6 +34,6 @@ public class Main {
 
     public static void main(String[] args) {
         Dog rachel = new Dog("Rchel");
-        System.out.println(rachel.crie("Barking"));
+        System.out.println(rachel.crie("Speaking"));
     };
 }
