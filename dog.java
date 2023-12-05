@@ -15,9 +15,9 @@ class Dog extends Animal{
     }
 
    @Override
-   protected String crie(String spec) {
+   protected String cries(String spec) {
        // TODO Auto-generated method stub
-       return super.crie(spec);
+       return super.cries(spec);
    }
 
     int getAge () {
