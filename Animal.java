@@ -7,7 +7,7 @@ public class Animal {
         System.out.println("Hi Animals");
     }
 
-    protected final String cries(String spec){
+    protected String cries(String spec){
         return "This animal is " + spec;
     }
 }
