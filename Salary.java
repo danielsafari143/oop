@@ -8,5 +8,4 @@ public class Salary extends Employee{
         System.err.println("The salary is " + salary/10);
         return salary;
     }
-
 }
