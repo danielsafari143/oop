@@ -33,9 +33,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Dog rachel = new Dog("Rchel");
-        boolean isDogAnAnimal = rachel instanceof Dog;
-        System.out.println(rachel.cries("Speaking"));
-        System.out.println(isDogAnAnimal);
+       CountMinutes counter = new CountMinutes();
+       CountMinutes counter2 = new CountMinutes();
+
+       counter.start();
+       counter2.start();
     };
 }
