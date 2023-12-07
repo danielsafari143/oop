@@ -14,8 +14,7 @@ public class CountMinutes extends Thread {
        try {
          for(int i = 0; i < 5; i++){
             this.time = LocalTime.now();
-            System.out.println("The result of counter"+ counterName +" is there :" + i);
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             System.out.println(time);
          }
        } catch (Exception e) {
