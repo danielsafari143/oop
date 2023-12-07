@@ -1,4 +1,6 @@
 package oop;
+import java.util.HashSet;
+import java.util.Iterator;
 
 import java.lang.reflect.Array;
 
@@ -35,14 +37,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-       int places [] = {1,2,3,4};
-       CountMinutes counter = new CountMinutes(1);
-       CountMinutes counter2 = new CountMinutes(2);
-       CounterSecond counterSec = new CounterSecond();
-       Thread exec = new Thread(counterSec);
-       System.out.println(places[1]);
-    //    exec.start();
-    //    counter2.start();
-       counter.start();
+       HashSet<String> cars = new HashSet<String>();
+       cars.add("Volvo");
+       cars.add("Volvo");
+       cars.add("Toyota");
+
+       Iterator<String> carsIterator= cars.iterator();
+      
+       while(carsIterator.hasNext()){
+        System.out.println(carsIterator.next());
+       }
     };
 }

@@ -13,8 +13,8 @@ public class CountMinutes extends Thread {
     public void run(){
        try {
          for(int i = 0; i < 5; i++){
-            this.time = LocalTime.now();
-            Thread.sleep(1000);
+            Thread.sleep(60000);
+             this.time = LocalTime.now();
             System.out.println(time.getMinute());
          }
        } catch (Exception e) {
