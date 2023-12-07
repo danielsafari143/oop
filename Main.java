@@ -33,10 +33,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-       CountMinutes counter = new CountMinutes();
-       CountMinutes counter2 = new CountMinutes();
-
-       counter.start();
+       CountMinutes counter = new CountMinutes(1);
+       CountMinutes counter2 = new CountMinutes(2);
+       CounterSecond counterSec = new CounterSecond();
+       Thread exec = new Thread(counterSec);
+       
+       exec.start();
        counter2.start();
+       counter.start();
     };
 }
