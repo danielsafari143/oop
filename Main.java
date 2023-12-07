@@ -35,14 +35,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int places [] = {1,2,3,4};
+       int places [] = {1,2,3,4};
        CountMinutes counter = new CountMinutes(1);
        CountMinutes counter2 = new CountMinutes(2);
        CounterSecond counterSec = new CounterSecond();
        Thread exec = new Thread(counterSec);
-        System.out.println(places[1]);
-       exec.start();
-       counter2.start();
+       System.out.println(places[1]);
+    //    exec.start();
+    //    counter2.start();
        counter.start();
     };
 }
